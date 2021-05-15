@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import getBlockchain from './ethereum.js';
 import { Doughnut } from 'react-chartjs-2';
-import './App.css'
+import './App.css';
+import Web3 from 'web3';
 
 const SIDE = {
   BEEPLE: 0,
